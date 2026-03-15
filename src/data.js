@@ -1,200 +1,177 @@
-import HeroImage from "/assets/hero-img.webp";
-import ProfilImage from "/assets/Profil-img.webp";
-import Profil2Image from "/assets/Profil2-img.webp";
+// --- Images ---
+import HeroImg from "./assets/images/hero-img.webp";
+import ProfilImg from "./assets/images/Profil-img.webp";
+import Profil2Img from "./assets/images/Profil2-img.webp";
+import CVFile from "./assets/CV-Hafidz-Shabhan-Fadhil.pdf";
 
-const Image = {
-  HeroImage,
-  ProfilImage,
-  Profil2Image,
+// --- Icon ---
+import VscodeIcon from "./assets/icons/vscode.png";
+import ReactIcon from "./assets/icons/reactjs.png";
+import TailwindIcon from "./assets/icons/tailwind.png";
+import BootstrapIcon from "./assets/icons/bootstrap.png";
+import JsIcon from "./assets/icons/js.png";
+import GithubIcon from "./assets/icons/github.png";
+import CanvaIcon from "./assets/icons/canva.png";
+import HtmlIcon from "./assets/icons/HTML5.png";
+import CssIcon from "./assets/icons/css3.png";
+import VercelIcon from "./assets/icons/vercel.svg";
+import WordpressIcon from "./assets/icons/Wordpress.png";
+
+// --- Project ---
+import Proyek1 from "./assets/images/proyek1.webp";
+import Proyek2 from "./assets/images/proyek2.webp";
+import Proyek3 from "./assets/images/proyek3.webp";
+import Proyek4 from "./assets/images/proyek4.webp";
+import Proyek5 from "./assets/images/proyek5.webp";
+import Proyek6 from "./assets/images/proyek6.webp";
+
+
+// --- EXPORTS ---
+export const DataImage = {
+  HeroImage: HeroImg,
+  ProfilImage: ProfilImg,
+  Profil2Image: Profil2Img,
 };
-
-export default Image;
 
 export const Download = {
-  CV: "/assets/CV-Hafidz-Shabhan-Fadhil.pdf"
+  CV: CVFile,
 };
 
-
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/HTML5.png";
-import Tools13 from "/assets/tools/css3.png";
-import Tools14 from "/assets/tools/vercel.svg";
-import Tools15 from "/assets/tools/Wordpress.png";
 
 export const listTools = [
   {
     id: 1,
-    gambar: Tools1,
+    gambar: VscodeIcon,
     nama: "Visual Studio Code",
     ket: "Code Editor",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools2,
+    gambar: ReactIcon,
     nama: "React JS",
     ket: "Framework",
     dad: "200",
   },
-  // {
-  //   id: 3,
-  //   gambar: Tools3,
-  //   nama: "Next JS",
-  //   ket: "Framework",
-  //   dad: "300",
-  // },
+  {
+    id: 3,
+    gambar: TailwindIcon,
+    nama: "Tailwind CSS",
+    ket: "Framework",
+    dad: "300",
+  },
   {
     id: 4,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
+    gambar: BootstrapIcon,
+    nama: "Bootstrap",
     ket: "Framework",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools5,
-    nama: "Bootstrap",
-    ket: "Framework",
+    gambar: JsIcon,
+    nama: "Javascript",
+    ket: "Language",
     dad: "500",
   },
   {
     id: 6,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
-    dad: "600",
-  },
-  // {
-  //   id: 7,
-  //   gambar: Tools7,
-  //   nama: "Node JS",
-  //   ket: "Javascript Runtime",
-  //   dad: "700",
-  // },
-  {
-    id: 8,
-    gambar: Tools8,
+    gambar: GithubIcon,
     nama: "Github",
     ket: "Repository",
-    dad: "800",
+    dad: "600",
   },
-  // {
-  //   id: 9,
-  //   gambar: Tools9,
-  //   nama: "Adobe Illustrator",
-  //   ket: "Design App",
-  //   dad: "900",
-  // },
   {
-    id: 10,
-    gambar: Tools10,
+    id: 7,
+    gambar: CanvaIcon,
     nama: "Canva",
     ket: "Design App",
-    dad: "1000",
+    dad: "700",
   },
-  // {
-  //   id: 11,
-  //   gambar: Tools11,
-  //   nama: "Figma",
-  //   ket: "Design App",
-  //   dad: "1100",
-  // },
   {
-    id: 12,
-    gambar: Tools12,
+    id: 8,
+    gambar: HtmlIcon,
     nama: "HTML5",
     ket: "Language",
-    dad: "1200",
+    dad: "800",
   },
   {
-    id: 13,
-    gambar: Tools13,
+    id: 9,
+    gambar: CssIcon,
     nama: "CSS3",
     ket: "Language",
-    dad: "1300",
+    dad: "900",
   },
   {
-    id: 14,
-    gambar: Tools14,
+    id: 10,
+    gambar: VercelIcon,
     nama: "Vercel",
-    ket: "Platform Deployment ",
-    dad: "1400",
+    ket: "Platform Deployment",
+    dad: "1000",
   },
   {
-    id: 15,
-    gambar: Tools15,
+    id: 11,
+    gambar: WordpressIcon,
     nama: "WordPress",
-    ket: "Content Management System",
-    dad: "1500",
+    ket: "CMS",
+    dad: "1100",
   },
 ];
-
-import Proyek1 from "/assets/proyek/dummy.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
     nama: "Coming Soon",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML5"],
+    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
+    tools: ["React JS", "Tailwind CSS"],
     dad: "200",
-    link: "https://www.google.com/",
+    link: "#",
   },
-  // {
-  //   id: 2,
-  //   gambar: Proyek2,
-  //   nama: "Company Profile",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
-  //   dad: "300",
-  // },
-  // {
-  //   id: 3,
-  //   gambar: Proyek3,
-  //   nama: "Web Pernikahan 2.0",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-  //   dad: "400",
-  // },
-  // {
-  //   id: 4,
-  //   gambar: Proyek4,
-  //   nama: "Website Course",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-  //   dad: "500",
-  // },
-  // {
-  //   id: 5,
-  //   gambar: Proyek5,
-  //   nama: "Web Portfolio",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-  //   dad: "600",
-  // },
-  // {
-  //   id: 6,
-  //   gambar: Proyek6,
-  //   nama: "Company Profile 2.0",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["NextJS", "TailwindCSS", "Framermotion"],
-  //   dad: "700",
-  // },
+  {
+    id: 2,
+    gambar: Proyek2,
+    nama: "Coming Soon",
+    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
+    tools: ["React JS", "Tailwind CSS"],
+    dad: "300",
+    link: "#",
+  },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Coming Soon",
+    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
+    tools: ["React JS", "Tailwind CSS"],
+    dad: "400",
+    link: "#",
+  },
+  {
+    id: 4,
+    gambar: Proyek4,
+    nama: "Coming Soon",
+    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
+    tools: ["React JS", "Tailwind CSS"],
+    dad: "500",
+    link: "#",
+  },
+  {
+    id: 5,
+    gambar: Proyek5,
+    nama: "Coming Soon",
+    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
+    tools: ["React JS", "Tailwind CSS"],
+    dad: "600",
+    link: "#",
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Coming Soon",
+    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
+    tools: ["React JS", "Tailwind CSS"],
+    dad: "700",
+    link: "#",
+  },
 ];
 

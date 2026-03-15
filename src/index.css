@@ -6,3 +6,28 @@
         color:white;
     }
 }
+
+:root {
+  --bg-color: #FAFAFA;       /* Off-white background */
+  --text-main: #1A1A1A;      /* Hampir hitam untuk teks utama */
+  --text-muted: #71717A;     /* Abu-abu untuk sub-teks */
+  --accent-color: #0052FF;   /* Royal Blue untuk Button/Link */
+  --accent-hover: #003ECC;   /* Biru lebih gelap untuk hover */
+  --card-bg: #FFFFFF;        /* Putih bersih untuk kartu proyek */
+  --border-color: #E4E4E7;   /* Warna garis tipis */
+  
+  --transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: var(--bg-color); */
+  /* color: var(--text-main); */
+  font-family: 'Inter', sans-serif; /* Kita akan pasang font ini di bawah */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
