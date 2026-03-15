@@ -1,7 +1,7 @@
 // --- Images ---
 import HeroImg from "./assets/images/hero-img.webp";
-import ProfilImg from "./assets/images/Profil-img.webp";
-import Profil2Img from "./assets/images/Profil2-img.webp";
+import ProfilImg from "./assets/images/profil-img.webp";
+import Profil2Img from "./assets/images/profil2-img.webp";
 import CVFile from "./assets/CV-Hafidz-Shabhan-Fadhil.pdf";
 
 // --- Icon ---
@@ -15,7 +15,7 @@ import CanvaIcon from "./assets/icons/canva.png";
 import HtmlIcon from "./assets/icons/HTML5.png";
 import CssIcon from "./assets/icons/css3.png";
 import VercelIcon from "./assets/icons/vercel.svg";
-import WordpressIcon from "./assets/icons/Wordpress.png";
+import WordpressIcon from "./assets/icons/wordpress.png";
 
 // --- Project ---
 import Proyek1 from "./assets/images/proyek1.webp";
