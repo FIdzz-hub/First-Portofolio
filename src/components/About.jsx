@@ -12,7 +12,7 @@ const About = () => {
           <img src={DataImage.ProfilImage || null} alt="image" className="w-12 rounded-md sm:block hidden" />
           <div className="flex items-center gap-6">
             <div>
-              <h1 className="text-4xl mb-1">0<span className="text-indigo-500">+</span></h1>
+              <h1 className="text-4xl mb-1">3<span className="text-indigo-500">+</span></h1>
               <p>project completed</p>
             </div>
             <div>

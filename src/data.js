@@ -18,7 +18,7 @@ import VercelIcon from "./assets/icons/vercel.svg";
 import WordpressIcon from "./assets/icons/wordpress.png";
 
 // --- Project ---
-import Proyek1 from "./assets/images/proyek1.webp";
+import Proyek1 from "./assets/images/proyek1.png";
 import Proyek2 from "./assets/images/proyek2.webp";
 import Proyek3 from "./assets/images/proyek3.webp";
 import Proyek4 from "./assets/images/proyek4.webp";
@@ -122,11 +122,11 @@ export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Coming Soon",
-    desk: "Proyek sedang dalam tahap pengembangan. Nantikan solusi digital yang inovatif segera!",
-    tools: ["React JS", "Tailwind CSS"],
+    nama: "Website Kelas",
+    desk: "Website galeri kenangan untuk menyimpan koleksi foto dan momen berharga selama masa perkuliahan.",
+    tools: ["React JS", "Tailwind CSS", "Vite"],
     dad: "200",
-    link: "#",
+    link: "https://web-kita-eta.vercel.app/",
   },
   {
     id: 2,

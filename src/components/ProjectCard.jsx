@@ -18,7 +18,7 @@ const Project = () => {
                 ))}
               </div>
               <div className="mt-8 text-center">
-                <a href="" className="bg-indigo-700 rounded-lg block border border-zinc-600 hover:bg-indigo-500 py-2">Lihat Website</a>
+                <a href={project.link} target="_blank" className="bg-indigo-700 rounded-lg block border border-zinc-600 hover:bg-indigo-500 py-2">Lihat Website</a>
               </div>
             </div>
           </div>
