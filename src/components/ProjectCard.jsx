@@ -7,7 +7,7 @@ const Project = () => {
       <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Berikut Ini beberapa project yang saya buat.</p>
       <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {listProyek.map((project) => (
-          <div key={project.id} className="p-4 bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={project.dad} data-aos-once="true">
+          <div key={project.id} className="p-4 bg-zinc-800 text-white rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={project.dad} data-aos-once="true">
             <img src={project.gambar} alt="project image" loading="lazy" />
             <div>
               <h1 className="text-2xl font-bold my-4">{project.nama}</h1>

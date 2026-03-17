@@ -20,10 +20,10 @@
   }
   
   body {
-    /* @apply bg-brand-bg text-brand-main font-sans antialiased;
+    @apply bg-brand-bg text-brand-main font-sans antialiased;
     background-color: var(--color-brand-bg);
     color: var(--color-brand-main);
-    font-family: var(--font-sans); */
+    font-family: var(--font-sans);
     margin: 0;
     padding: 0;
     line-height: 1.6;

@@ -5,19 +5,19 @@ const About = () => {
     <div className="about mt-32 py-10" id="about">
       <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <img src={DataImage.Profil2Image || null} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
-        <p className="text-base/loose mb-10">
+        <p className="text-white text-base/loose mb-10">
           Hello World!, Saya Hafidz Shabhan Fadhil, seorang Full Stack Web Developer dan Designer. Saya senang menggabungkan desain yang menarik dengan fungsionalitas yang solid. Bagi saya, web yang bagus bukan hanya soal tampilan, tapi juga pengalaman pengguna yang simpel, nyaman, dan mudah digunakan.
         </p>
         <div className="flex items-center justify-between">
           <img src={DataImage.ProfilImage || null} alt="image" className="w-12 rounded-md sm:block hidden" />
           <div className="flex items-center gap-6">
             <div>
-              <h1 className="text-4xl mb-1">3<span className="text-indigo-500">+</span></h1>
-              <p>project completed</p>
+              <h1 className="text-4xl text-white mb-1">3<span className="text-indigo-500">+</span></h1>
+              <p className="text-white">project completed</p>
             </div>
             <div>
-              <h1 className="text-4xl mb-1">1<span className="text-indigo-500">+</span></h1>
-              <p>years of experience</p>
+              <h1 className="text-4xl text-white mb-1">1<span className="text-indigo-500">+</span></h1>
+              <p className="text-white">years of experience</p>
             </div>
           </div>
         </div>
