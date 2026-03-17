@@ -4,8 +4,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Project from "./components/ProjectCard";
 import Contact from "./components/ContactForm";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 function App() {
   const [showConfirm, setShowConfirm] = useState(false);
@@ -22,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-brand-bg min-h-screen">
+      <div className="bg-brand min-h-screen">
         <div className="max-w-6xl mx-auto px-6">
 
           <main className="flex flex-col gap-y-32 md:gap-y-48">

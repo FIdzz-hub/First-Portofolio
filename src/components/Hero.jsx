@@ -4,7 +4,7 @@ const Hero = ({ onDownloadClick }) => {
   return (
     <div className="hero grid md:grid-cols-2 grid-cols-1 items-center pt-10 xl:gap-0 gap-6">
       <div className="animate__animated animate__fadeInUp animate__delay-3s">
-        <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
+        <div className="bg-zinc-800 flex items-center gap-3 mb-6 w-fit p-4 rounded-2xl">
           <img src={DataImage.Profil2Image || null} alt="Hero Image" className="w-15 rounded-md" loading="lazy" />
           <q>Success doesn't come from what you do occasionally, it comes from what you do consistently😎.</q>
         </div>
@@ -22,7 +22,7 @@ const Hero = ({ onDownloadClick }) => {
           </a>
         </div>
       </div>
-      <img src={DataImage.ProfilImage || null} alt="Hero Image" className="w-[350px] md:ml-auto rounded-b-2xl animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
+      <img src={DataImage.ProfilImage || null} alt="Hero Image" className="w-87.5 md:ml-auto rounded-b-2xl animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
     </div>
   );
 };
