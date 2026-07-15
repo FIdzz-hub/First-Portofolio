@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-brand-bg min-h-screen selection:bg-brand-accent/20 selection:text-brand-accent">
+      <div className="bg-zinc-900 text-white min-h-screen selection:bg-brand-accent/20 selection:text-brand-accent">
         <div className="max-w-6xl mx-auto px-6">
           <Navbar />
 
